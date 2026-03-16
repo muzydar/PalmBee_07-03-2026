@@ -1050,39 +1050,39 @@
 <h1 id="installation">Installation</h1>
 <p>To install the PalmBee package, follow these steps:</p>
 <hr />
-<h2 id="1-install-and-setup-ros2-humble-first">1. Install and setup ROS2 Humble First:</h2>
+<h4 id="1-install-and-setup-ros2-humble-first">1. Install and setup ROS2 Humble First:</h4>
 <pre><code class="language-bash">using this documentation
 https://docs.ros.org/en/humble/Installation.html
 </code></pre>
 <hr />
-<h2 id="2-install-and-setup-this-specific-zed-sdk">2. Install and setup this specific Zed SDK:</h2>
+<h4 id="2-install-and-setup-this-specific-zed-sdk">2. Install and setup this specific Zed SDK:</h4>
 <pre><code class="language-bash">[git clone https://github.com/ep51lon/PalmBee.git](https://www.stereolabs.com/en-id/developers/release/4.2
 note : this repository is based on wrapper 4.2.5 and tested on ZED SDK for JetPack 6.1 and 6.2 (L4T 36.4))
 </code></pre>
 <hr />
-<h2 id="3-create-the-workspace-directory">3. Create the workspace directory:</h2>
+<h4 id="3-create-the-workspace-directory">3. Create the workspace directory:</h4>
 <pre><code class="language-bash">mkdir -p palmbee_ws/src
 cd palmbee_ws/src
 </code></pre>
 <hr />
-<h2 id="4-clone-the-repository">4. Clone the repository:</h2>
+<h4 id="4-clone-the-repository">4. Clone the repository:</h4>
 <pre><code class="language-bash">git clone https://github.com/ep51lon/PalmBee.git
 </code></pre>
 <hr />
-<h2 id="5-install-dependencies">5. Install dependencies:</h2>
+<h4 id="5-install-dependencies">5. Install dependencies:</h4>
 <pre><code class="language-bash">git clone https://github.com/ep51lon/PalmBee.git
 </code></pre>
 <p>or build specific package (for example, pb_perception) using</p>
 <pre><code class="language-bash">colcon build --packages-select pb_perception
 </code></pre>
 <hr />
-<h2 id="6-build-the-package">6. Build the package:</h2>
+<h4 id="6-build-the-package">6. Build the package:</h4>
 <pre><code class="language-bash">colcon build
 or build specific package (for example, pb_perception) using
 colcon build --packages-select pb_perception
 </code></pre>
 <hr />
-<h2 id="7-source-the-setup-file">7. Source the setup file:</h2>
+<h4 id="7-source-the-setup-file">7. Source the setup file:</h4>
 <pre><code class="language-bash">source install/setup.bash
 </code></pre>
 <p>or set it up on ~/.bashrc using the source command</p>
