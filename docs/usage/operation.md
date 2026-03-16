@@ -38,4 +38,4 @@ note : there's one more executable from pb_control that can be used if needed 2 
 
 after starting , wait until in the terminal where this package startet to show "waiting for arm". to armed the vehicle, use mission planner or GCS to do it. after the drone being armed by GCS, it will start flying automaticly according to it's mission
 
-For more detailed instructions and documentation, please refer to the [wiki](https://github.com/yourusername/palmbee/wiki).
+For more detailed instructions and documentation, please refer to the [wiki](https://https://github.com/ep51lon/PalmBee).
