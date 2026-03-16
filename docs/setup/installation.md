@@ -20,12 +20,12 @@ mkdir -p palmbee_ws/src
 cd palmbee_ws/src
 ```
 
-5. Clone the repository:
+4. Clone the repository:
 ```bash
 git clone https://github.com/ep51lon/PalmBee.git
 ```
 
-4. Install dependencies:
+5. Install dependencies:
 ```bash
 git clone https://github.com/ep51lon/PalmBee.git
 ```
@@ -34,14 +34,14 @@ or build specific package (for example, pb_perception) using
 colcon build --packages-select pb_perception
 ```
 
-5. Build the package:
+6. Build the package:
 ```bash
 colcon build
 or build specific package (for example, pb_perception) using
 colcon build --packages-select pb_perception
 ```
 
-5. Source the setup file:
+7. Source the setup file:
 ```bash
 source install/setup.bash
 ```
