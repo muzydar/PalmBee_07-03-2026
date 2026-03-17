@@ -2,7 +2,7 @@ site_name: PalmBee Documentation
 
 theme:
   name: material
-  logo: docs/images/beehive_drone.png
+  logo: images/beehive_drone.png
   custom_dir: docs/overrides
   features:
     - navigation.sections
