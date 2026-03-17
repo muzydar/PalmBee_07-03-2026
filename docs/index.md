@@ -1,6 +1,6 @@
 ## PalmBee
 
-PalmBee is a package designed to automate the pollination process in palm tree plantations using drones. This package leverages the capabilities of PX4 and ROS2 Humble to provide an efficient and reliable solution for pollination.
+PalmBee is a package designed to automate the pollination process in palm tree plantations using drones. This package leverages the capabilities of Ardupilot and ROS2 Humble to provide an efficient and reliable solution for pollination.
 
 ## Compatibility
 
